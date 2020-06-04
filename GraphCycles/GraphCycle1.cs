@@ -65,9 +65,9 @@ namespace GraphCycles
             {
                 drawLine(a, 0, 0, a);
             }
-            for (int a = 600; a >= 600; a -= 20)
+            for (int a = 0; a <= 600; a += 20)
             {
-                drawLine(-a, 0, 0, -a);
+                drawLine(a, 600, 600, a);
             }
         }
     }
